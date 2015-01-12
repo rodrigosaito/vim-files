@@ -12,3 +12,6 @@ syntax on
 
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
+
+" Start pathogen
+execute pathogen#infect()
