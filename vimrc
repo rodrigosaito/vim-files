@@ -15,3 +15,10 @@ filetype plugin indent on
 
 " Start pathogen
 execute pathogen#infect()
+
+" vim-go configs
+" format with goimports instead of gofmt # not sure why this is not working
+" let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
