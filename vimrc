@@ -34,3 +34,6 @@ execute pathogen#infect()
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
+
+" Setup CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
